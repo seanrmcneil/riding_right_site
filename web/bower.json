@@ -1,0 +1,24 @@
+{
+  "name": "riding_right_site",
+  "version": "0.0.0",
+  "homepage": "https://github.com/seanrmcneil/riding_right_site",
+  "authors": [
+    "Sean McNeil"
+  ],
+  "description": "Site for riding right farms",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "~1.5.8"
+  }
+}

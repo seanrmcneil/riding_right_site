@@ -1,0 +1,23 @@
+{
+  "name": "riding_right_site",
+  "version": "1.0.0",
+  "description": "A website for riding right farms",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanrmcneil/riding_right_site.git"
+  },
+  "author": "Sean McNeil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanrmcneil/riding_right_site/issues"
+  },
+  "homepage": "https://github.com/seanrmcneil/riding_right_site#readme",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "express": "^4.14.0"
+  }
+}
