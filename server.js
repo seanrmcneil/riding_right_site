@@ -2,7 +2,7 @@ var express = require('express')
 var app = express()
 
 app.get('/', function (req, res) {
-  res.sendFile('/Users/Sean/Desktop/riding_right_site/web/index.html')
+  res.send('<h1>THIS IS A TEST</h1>')
 })
 
 app.listen(3000, function () {
