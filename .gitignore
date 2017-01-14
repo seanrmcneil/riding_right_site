@@ -37,3 +37,5 @@ jspm_packages
 .node_repl_history
 
 web/bower_components
+*.swp
+#because I use vim
