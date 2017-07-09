@@ -3,14 +3,18 @@ var pug = require('pug')
 var mongoose = require('mongoose')
 var app = express()
 
+var Blog = require('./models/Blog')
+
 app.set('views','/Users/davidmcvicar/riding_right_site/web');
 app.set('view engine', 'pug');
-//app.use(express.static('web'))
 
 app.route('/blog')
   .get(function (req, res) {
     id = req.query.id
-    // get the blog post based on the id, from Mongo
+    Blog.find(function(err, blogs) {
+       if(err)
+          res.send(err)
+    }
     message = 'You\'re getting blog post with the id: ' + id
     res.render('index', { message: message });
   })
