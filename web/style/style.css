@@ -1,0 +1,47 @@
+body {
+  width: 100%;
+  margin: 0px;
+}
+
+.coverphoto{
+	z-index: -1;
+	max-width: 100%;
+	margin-bottom: -4px;
+}
+
+.container{
+	margin: 0px;
+}
+
+
+.navigation{
+	background-color: rgba(255, 255, 255, 0.9);
+	width: 100%;
+	z-index: 5;
+	opacity: 0.5;
+}
+.space{
+	padding-top: 50px;
+}
+.back{
+	float: left !important;
+	margin-left: 5%;
+}
+ul.navigation{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+
+}
+ul.navigation li{
+	float: right;
+	padding-right: 3%;
+
+}
+ul.navigation li a {
+	font-size: 25px;
+    padding: 7px 0px 7px 0px;
+    text-decoration: none;
+    color: #545252;
+    text-transform: uppercase;
+}
